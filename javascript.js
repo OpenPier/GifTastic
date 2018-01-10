@@ -1,8 +1,8 @@
-$(function() {
-    populateButtons(searchArray, 'searchButton','#buttonsArea');    
-})
-
 var searchArray = ['Dog', 'Cat', 'Bird', 'Horses'];
+    populateButtons(searchArray, 'searchButton','#buttonsArea');    
+
+
+
 
 function populateButtons(searchArray,classToAdd,areaToAddTo) {
     $(areaToAddTo).empty();
